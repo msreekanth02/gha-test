@@ -1,7 +1,10 @@
 name: Ping Servers via Ansible
 
 on:
-  workflow_dispatch:
+  #workflow_dispatch:
+  push:
+    branches:
+      - main # Change to your default branch if different
 
 jobs:
   ping:
