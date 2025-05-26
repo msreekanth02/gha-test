@@ -8,7 +8,7 @@ on:
 
 jobs:
   ping:
-    runs-on: self-hosted
+    runs-on: ansible-controller
 
     steps:
     - name: Checkout Repo
