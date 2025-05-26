@@ -4,6 +4,7 @@ ansible-node1 ansible_host=192.168.1.10
 ansible-node2 ansible_host=192.168.1.11
 ansible-node3 ansible_host=192.168.1.12
 ansible-node4 ansible_host=192.168.1.14
+ansible-controller-ubuntu=192.168.1.90
 
 [ping_targets:vars]
 ansible_user=ansible
