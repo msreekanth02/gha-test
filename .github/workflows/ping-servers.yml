@@ -17,4 +17,5 @@ jobs:
     - name: Run Ansible Ping
       run: |
         ansible-playbook -i inventory.yml ping.yml
+        ansible-playbook -i inventory.yml host-details.yml
 
