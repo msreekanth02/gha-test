@@ -1,0 +1,9 @@
+---
+- name: Run Ping and Host Details Roles
+  hosts: all
+  gather_facts: true
+
+  roles:
+    - role: ping
+    - role: host_details
+
