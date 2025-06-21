@@ -1,7 +1,7 @@
 ---
 - name: Gather and display host details
-  hosts: all
-  gather_facts: true
+  #hosts: all
+  #gather_facts: true
 
   tasks:
     - name: Display host info for RedHat-family systems
