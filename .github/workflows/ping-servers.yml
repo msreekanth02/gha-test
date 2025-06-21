@@ -1,4 +1,4 @@
-name: Ping All the Ansible VMs via Ansible playbook
+name: Ping All the VMs listed in the inventory via Ansible playbook
 
 on:
   #workflow_dispatch:
