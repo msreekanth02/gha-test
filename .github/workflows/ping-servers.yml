@@ -1,4 +1,4 @@
-name: Ping Servers via Ansible
+name: Ping All the Ansible VMs via Ansible playbook
 
 on:
   #workflow_dispatch:
