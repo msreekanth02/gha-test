@@ -1,6 +1,4 @@
-- name: Ping all target servers
-  hosts: ping_targets
-  gather_facts: false
-  tasks:
-    - name: Ping server
-      ansible.builtin.ping:
+# File: /C:/Users/Sreekanth Matturthi/projects/gha-test/roles/ping/tasks/main.yml
+
+- name: Ping server
+  ansible.builtin.ping:
